@@ -1,0 +1,5 @@
+python_arango>=8.1.6
+networkx>=3.4.2
+ujson>=5.10.0
+substack_api>=1.0.2
+mcp[cli]>=1.9.0
