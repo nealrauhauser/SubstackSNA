@@ -1,4 +1,4 @@
-from .mkclients import mkarango
+from .substsna import mkarango
 
 # call me with datetime.datetime.now()
 def elkdate(stamp):

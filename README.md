@@ -1,2 +1,4 @@
 # SubstackSNA
-Network Analysis for the Substack publishing platform
+Network Analysis for the Substack publishing platform.
+
+
