@@ -28,6 +28,8 @@ ardb = substsna.mkarango("substack")
 col = ardb.collection(args.collection)
 
 for thing in col:
+    peep = thing['handle']
+    print("nealr,"+thing['handle'])
     for sub in thing['subscriptions']:
         print(ujson.dumps(sub))
-#        print(sub['publication']['subdomain'])
+        print(peep + "," + sub['publication']['subdomain'])
