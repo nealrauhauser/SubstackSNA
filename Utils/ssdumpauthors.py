@@ -31,5 +31,5 @@ for thing in col:
     peep = thing['handle']
     print("nealr,"+thing['handle'])
     for sub in thing['subscriptions']:
-        print(ujson.dumps(sub))
+        #print(ujson.dumps(sub))
         print(peep + "," + sub['publication']['subdomain'])
